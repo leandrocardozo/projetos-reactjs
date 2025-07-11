@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Sistema de Login + Lista de Tarefas em React / Next.js
 
-## Getting Started
+Este projeto é um sistema simples de **autenticação com cadastro e login**, integrado a uma **lista de tarefas (ToDo List)**. Ideal para aprender na prática como funcionam fluxos de autenticação no front-end e manipulação de estado com `useReducer` e `localStorage`.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧪 Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ⚛️ [React](https://react.dev/)
+- ⏳ [Next.js (App Router)](https://nextjs.org/docs/app)
+- 🟦 [TypeScript](https://www.typescriptlang.org/)
+- 💨 [Tailwind CSS](https://tailwindcss.com/)
+- 🗂️ `localStorage` (armazenamento local do navegador)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔐 Funcionalidades
 
-## Learn More
+### ✅ Login / Cadastro
+- Validação de campos obrigatórios
+- Confirmação de senha
+- Verificação de email já existente
+- Armazenamento seguro das contas no `localStorage`
+- Redirecionamento automático após login
+- Feedback visual de sucesso ou erro
 
-To learn more about Next.js, take a look at the following resources:
+### 📝 Lista de Tarefas
+- Adição de tarefas com Enter ou botão
+- Marcar/desmarcar como concluída
+- Deletar tarefa individual
+- Limpar todas as tarefas (com confirmação)
+- Mensagem especial quando todas as tarefas são concluídas
+- Persistência das tarefas na sessão
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧠 O que aprendi
 
-## Deploy on Vercel
+Durante o desenvolvimento deste projeto, aprendi a:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Criar um sistema completo de **login/cadastro** sem backend, usando `localStorage`
+- Validar formulários e dar feedback visual ao usuário (erros e sucessos)
+- Utilizar **`useReducer`** para gerenciar uma lista de tarefas de forma organizada e escalável
+- Implementar **modais personalizados** (confirmação de exclusão, sucesso)
+- Trabalhar com **`useRef`** para foco automático e controle de estados anteriores
+- Usar navegação programada com `useRouter()` do Next.js App Router
+- Utilizar **Tailwind CSS** para estilizar rapidamente com classes utilitárias
+- Pensar na **experiência do usuário (UX)** em pequenos detalhes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📷 Imagens do Projeto
+
+### Tela de Login
+![Login](assets/login.png)
+
+### Tela de Cadastro
+![Cadastro](assets/cadastro.png)
+
+### Lista de Tarefas
+![ToDo](assets/task.png)
+
+---
+
+## 📦 Como rodar o projeto
+
+- npm run dev
