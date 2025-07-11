@@ -9,7 +9,6 @@ Este é um projeto de um **Quiz interativo** criado com ReactJS e TypeScript. O 
 - ✅ [ReactJS](https://react.dev/)
 - ✅ [TypeScript](https://www.typescriptlang.org/)
 - ✅ [Tailwind CSS](https://tailwindcss.com/)
-- ✅ [Vite](https://vitejs.dev/) *(provavelmente, se estiver usando)*
 - ✅ [Next.js App Router](https://nextjs.org/docs/app)
 
 ---
