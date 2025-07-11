@@ -44,14 +44,11 @@ src/
 
 
 ---
-
 ## Tela inicial
-
-![Tela inicial](src/assets/telainicial.png)
+![Tela inicial](assets/telainicial.png)
 
 ## Chat
-
-![Chat](src/assets/chat.png)
+![Tela do chat](assets/chat.png)
 
 ## 🧪 Como rodar o projeto localmente
 
