@@ -36,3 +36,7 @@ Projeto desenvolvido como exercício prático para reforçar conceitos de React,
 
 ## Para rodar
 - `npm start`
+
+![Tela principal do projeto](src/assets/telaprincipal.png)
+
+![Resultado](src/assets/resultado.png)
