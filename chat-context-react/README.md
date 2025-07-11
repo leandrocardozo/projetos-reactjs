@@ -45,14 +45,15 @@ src/
 
 ---
 
+## Tela inicial
+
+![Tela inicial](src/assets/telainicial.png)
+
+## Chat
+
+![Chat](src/assets/chat.png)
+
 ## 🧪 Como rodar o projeto localmente
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/seuusuario/seurepositorio.git
-
-# 2. Acesse a pasta do projeto
-cd seurepositorio
 
 # 3. Instale as dependências
 npm install
